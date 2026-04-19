@@ -2,131 +2,109 @@
 <html>
 <head>
     <title>School Alumni Portal</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <!-- Header Section -->
-    <header>
-        <h1 align="center"><u>School Alumni Portal</u></h1>
-        <marquee behavior="scroll" direction="left">
-        Welcome Back Alumni!
-    </marquee>
-        <hr>
-    </header>
-    <!-- Navigation -->
-    <nav>
-        <a href="#">Home</a> |
-        <a href="#">Register</a> |
-        <a href="#">Gallery</a> |
-        <a href="#">Donate</a> |
-        <a href="#">News</a> |
-        <a href="#">Contact</a>
-        <hr>
-    </nav>
-    <!-- Alumni Registration Section -->
-    <section>
-        <h2>Alumni Registration</h2>
+<header>
+    <h1><u>School Alumni Portal</u></h1>
+    <marquee>Welcome Back Alumni!</marquee>
+</header>
 
-        <form>
-            <label>Full Name:</label><br>
-            <input type="text" placeholder="Enter Your Name"><br><br>
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Register</a>
+    <a href="#">Gallery</a>
+    <a href="#">Donate</a>
+    <a href="#">News</a>
+    <a href="#">Contact</a>
+</nav>
 
-            <label>Email:</label><br>
-            <input type="email" placeholder="Enter Your Email"><br><br>
+<section>
+    <h2>Alumni Registration</h2>
 
-            <label>Passing Year:</label><br>
-            <input type="number" placeholder="Enter Passing Year"><br><br>
+    <form>
+        <label>Full Name:</label><br>
+        <input type="text" placeholder="Enter Your Name">
 
-            <label>Profession:</label><br>
-            <input type="text" placeholder="Enter Your Profession"><br><br>
+        <label>Email:</label><br>
+        <input type="email" placeholder="Enter Your Email">
 
-            <input type="submit" value="Register">
-        </form>
+        <label>Passing Year:</label><br>
+        <input type="number" placeholder="Enter Passing Year">
 
-        <hr>
-    </section>
-<!-- Event Gallery Section -->
-    <section>
-        <h2>Event Gallery</h2>
+        <label>Profession:</label><br>
+        <input type="text" placeholder="Enter Your Profession">
 
-        <table border="1" cellpadding="0">
-            <tr>
-                <td width="100" height="100">
-            <img src="https://eopwebsvr.blob.core.windows.net/media/filer_public/08/ae/08ae0720-05f9-4cdc-9177-d8b336921aeb/imresizer-1701149650430.jpg" width="100" height="100">
-        </td>
-                <td width="100" height="100">
-            <img src="https://www.shutterstock.com/image-photo/nagpur-maharashtra-india-december-30-260nw-2463261817.jpg" width="100" height="100">
-        </td>
-                <td width="100" height="100">
-            <img src="https://www.shutterstock.com/image-photo/udupi-karnataka-india-02-jan-260nw-2591988135.jpg" width="100" height="100">
-        </td>
-            </tr>
-            <tr>
-                <td width="100" height="100">
-            <img src="https://c8.alamy.com/comp/CXH0DR/school-going-children-riding-cycle-near-school-buildingscene-from-CXH0DR.jpg" width="100" height="100">
-        </td>
-                <td width="100" height="100">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Government_Higher_Secondary_School.jpg" width="100" height="100">
-        </td>
-                <td width="100" height="100">
-            <img src="https://cache.careers360.mobi/media/article_images/2025/6/18/tamil-nadu-school-class-1-kg-admission-enrollment-2025-featured-image.jpg" width="100" height="100">
-        </td>
-            </tr>
-        </table>
-        <hr>
-    </section>
-    <!-- Donation Section -->
-    <section>
-        <h2>Support School Development</h2>
+        <input type="submit" value="Register">
+    </form>
+</section>
 
-        <form>
-            <label>Select Amount:</label><br><br>
+<section>
+    <h2>Event Gallery</h2>
 
-            <button>₹500</button>
-            <button>₹1000</button>
-            <button>₹5000</button>
-            <button>Custom</button>
+    <div class="gallery">
 
-            <br><br>
+        <img src="https://eopwebsvr.blob.core.windows.net/media/filer_public/08/ae/08ae0720-05f9-4cdc-9177-d8b336921aeb/imresizer-1701149650430.jpg">
 
-            <label>Your Name:</label><br>
-            <input type="text"><br><br>
+        <img src="https://www.shutterstock.com/image-photo/nagpur-maharashtra-india-december-30-260nw-2463261817.jpg">
 
-            <input type="submit" value="Donate Now">
-        </form>
+        <img src="https://www.shutterstock.com/image-photo/udupi-karnataka-india-02-jan-260nw-2591988135.jpg">
 
-        <hr>
-    </section>
+        <img src="https://c8.alamy.com/comp/CXH0DR/school-going-children-riding-cycle-near-school-buildingscene-from-CXH0DR.jpg">
 
-    <!-- News Feed Section -->
-    <section>
-        <h2>Latest News</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Government_Higher_Secondary_School.jpg">
 
-        <ol>
-            <li>Annual Alumni Meet on 25th June.</li>
-            <li>New Library Block Inauguration.</li>
-            <li>Scholarship Fund Started for Students.</li>
-            <li>Sports Reunion Registration Open.</li>
-        </ol>
+        <img src="https://cache.careers360.mobi/media/article_images/2025/6/18/tamil-nadu-school-class-1-kg-admission-enrollment-2025-featured-image.jpg">
 
-        <hr>
-    </section>
+    </div>
+</section>
+
+<section>
+    <h2>Support School Development</h2>
+
+    <form>
+        <label>Select Amount:</label><br><br>
+
+        <button>₹500</button>
+        <button>₹1000</button>
+        <button>₹5000</button>
+        <button>Custom</button>
+
+        <br><br>
+
+        <label>Your Name:</label><br>
+        <input type="text">
+
+        <input type="submit" value="Donate Now">
+    </form>
+</section>
+
+<section>
+    <h2>Latest News</h2>
+
+    <ol>
+        <li>Annual Alumni Meet on 25th June.</li>
+        <li>New Library Block Inauguration.</li>
+        <li>Scholarship Fund Started for Students.</li>
+        <li>Sports Reunion Registration Open.</li>
+    </ol>
+</section>
+
 <section>
     <h2>Our School Location</h2>
 
     <iframe 
         src="https://www.google.com/maps?q=Nagpur+India&output=embed"
-        width="700"
         height="300">
     </iframe>
 
-    <hr>
 </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>© 2026 School Alumni Portal | All Rights Reserved</p>
-    </footer>
+<footer>
+    <p>© 2026 School Alumni Portal | All Rights Reserved</p>
+</footer>
 
 </body>
 </html>
