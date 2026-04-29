@@ -105,17 +105,18 @@ body{
 
 
 
-/* Map */
+/* Iframe */
 iframe{
-    width:100%;
-    border-radius:10px;
+    border:none;
+    border-radius:12px;
 }
 
 /* Footer */
 footer{
-    background:#003366;
+    background:#0d6efd;
     color:white;
     text-align:center;
-    padding:15px;
-    margin-top:20px;
-} 
+    padding:20px;
+    margin-top:30px;
+}
+
