@@ -11,41 +11,12 @@ body{
     padding:0;
 }
 
-/* Header */
-header{
-    background:#003366;
-    color:white;
-    text-align:center;
-    padding:15px;
-}
-
-header h1{
-    margin:0;
-}
-
-marquee{
-    margin-top:10px;
-    font-size:18px;
-    color:yellow;
-}
-
-/* Navigation */
-nav{
-    background:#0059b3;
-    text-align:center;
-    padding:12px;
-}
-
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:15px;
+/* Navbar */
+.navbar-brand{
+    font-size:24px;
     font-weight:bold;
 }
 
-nav a:hover{
-    color:yellow;
-}
 
 /* Section */
 section{
