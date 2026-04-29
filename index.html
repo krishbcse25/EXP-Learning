@@ -48,25 +48,40 @@
 </section>
 
 
-<section>
-    <h2>Alumni Registration</h2>
+<!-- Register -->
+<section class="container my-5" id="register">
+<div class="card p-4 shadow">
 
-    <form>
-        <label>Full Name:</label><br>
-        <input type="text" placeholder="Enter Your Name">
+<h2 class="text-primary mb-4">Alumni Registration</h2>
 
-        <label>Email:</label><br>
-        <input type="email" placeholder="Enter Your Email">
+<form onsubmit="registerUser(event)">
+<div class="row">
 
-        <label>Passing Year:</label><br>
-        <input type="number" placeholder="Enter Passing Year">
+<div class="col-md-6 mb-3">
+<input type="text" class="form-control" id="name" placeholder="Full Name" required>
+</div>
 
-        <label>Profession:</label><br>
-        <input type="text" placeholder="Enter Your Profession">
+<div class="col-md-6 mb-3">
+<input type="email" class="form-control" id="email" placeholder="Email Address" required>
+</div>
 
-        <input type="submit" value="Register">
-    </form>
+<div class="col-md-6 mb-3">
+<input type="number" class="form-control" placeholder="Passing Year" required>
+</div>
+
+<div class="col-md-6 mb-3">
+<input type="text" class="form-control" placeholder="Profession" required>
+</div>
+
+</div>
+
+<button type="submit" class="btn btn-primary">Register</button>
+</form>
+
+</div>
 </section>
+
+
 
 <section>
     <h2>Event Gallery</h2>
