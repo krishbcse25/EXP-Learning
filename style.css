@@ -46,9 +46,18 @@ body{
 }
 
 
-input[type="submit"]:hover{
-    background:#0059b3;
+/* Cards */
+.card{
+    border:none;
+    border-radius:15px;
+    transition:0.4s;
 }
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 20px gray;
+}
+
 
 /* Buttons */
 button{
