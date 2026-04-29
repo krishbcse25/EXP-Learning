@@ -105,25 +105,28 @@
 </section>
 
 
-<section>
-    <h2>Support School Development</h2>
+<!-- Donate -->
+<section class="container my-5" id="donate">
+<div class="card p-4 shadow">
 
-    <form>
-        <label>Select Amount:</label><br><br>
+<h2 class="text-primary mb-4">Support School Development</h2>
 
-        <button>₹500</button>
-        <button>₹1000</button>
-        <button>₹5000</button>
-        <button>Custom</button>
+<input type="text" class="form-control mb-3" id="donor" placeholder="Your Name">
 
-        <br><br>
+<div>
+<button class="btn btn-outline-primary m-1" onclick="setAmount(500)">₹500</button>
+<button class="btn btn-outline-primary m-1" onclick="setAmount(1000)">₹1000</button>
+<button class="btn btn-outline-primary m-1" onclick="setAmount(5000)">₹5000</button>
+</div>
 
-        <label>Your Name:</label><br>
-        <input type="text">
+<input type="text" class="form-control mt-3" id="amount" placeholder="Donation Amount">
 
-        <input type="submit" value="Donate Now">
-    </form>
+<button class="btn btn-success mt-3" onclick="donateNow()">Donate Now</button>
+
+</div>
 </section>
+
+
 
 <section>
     <h2>Latest News</h2>
